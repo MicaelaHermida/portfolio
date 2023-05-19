@@ -7,16 +7,19 @@
     padding: 0;
 }
 body{
-    background-color: rgba(176, 159, 159, 0.429);
+    background-color: rgba(167, 144, 118, 0.541);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+.border{
+    border-radius: 6px;
+}
 .container{
     background-image: linear-gradient(to bottom, rgba(255, 1, 52, 0.181), rgba(255, 205, 222, 0.575));
     height: 100%;
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,6 +33,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 .pfp-container{
     width: 100%;
@@ -43,12 +47,24 @@ body{
     font-family: 'Kanit', sans-serif;
     font-size: 26pt;
     text-shadow: 2px 2px 3px rgba(62, 1, 11, 0.25);
+    text-align: center;
 }
 .mini-box{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.299), rgba(255, 1, 52, 0.196));
     width: 80%;
-    height: 30%;
+    height: 40%;
     box-shadow: 6px 6px 13px rgba(56, 0, 33, 0.268);
+}
+.section{
+    margin-top: 10px;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.pfp-banner{
+    display: flex;
+    justify-content: space-around;
 }
 /*
 .card-container{
