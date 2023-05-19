@@ -7,7 +7,7 @@
     padding: 0;
 }
 body{
-    background-color: rgba(167, 141, 118, 0.541);
+    background-color: rgba(202, 172, 155, 0.876);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body{
     border-radius: 6px;
 }
 .container{
-    background-image: linear-gradient(to bottom, rgba(255, 100, 131, 0.871), rgba(255, 205, 222, 0.876));
+    background-image: linear-gradient(to bottom, rgba(221, 129, 147, 0.919), rgba(228, 181, 155, 0.876));
     height: 100%;
     width: 100%;
     display: flex;
@@ -40,6 +40,7 @@ body{
 }
 .pfp{
     border-radius: 100%;
+    opacity: 90%;
 }
 .title{
     font-family: 'Kanit', sans-serif;
@@ -50,7 +51,7 @@ body{
     text-shadow: 2px 2px 3px rgba(62, 1, 11, 0.486);
 }
 .mini-box{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.299), rgba(255, 1, 52, 0.196));
+    background-image: linear-gradient(to bottom, rgba(228, 201, 186, 0.476), rgba(255, 1, 52, 0.139));
     width: 80%;
     height: 40%;
 }
@@ -61,14 +62,11 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.pfp-banner{
-    display: flex;
-    justify-content: space-around;
-}
+
 .nav{
     display: flex;
     width: 100%;
-    height: 8%;
+    height: 10%;
     justify-content: space-around;
 }
 .gif-background{
@@ -102,9 +100,14 @@ a:hover::after {
     opacity: 1; /* Mostrar la sombra al pasar el mouse */
 }
 
+.link-img{
+    opacity: 80%;
+}
+
 .link-img:hover {
     width: 203px;
     height: 203px;
+    opacity: 100%;
 }
 .footer{
     margin-top: 25px;
