@@ -136,3 +136,7 @@ a:hover::after {
     font-weight: bold;
     color: rgba(95, 18, 45, 0.714) !important;
 }
+
+@media only screen and (max-width: 767px) {
+
+}
