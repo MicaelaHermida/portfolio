@@ -156,7 +156,7 @@ a:hover::after {
     .mini-box{
         background-image: linear-gradient(to bottom, rgba(228, 201, 186, 0.476), rgba(255, 1, 52, 0.139));
         width: 80%;
-        height: 40%;
+        height: 30%;
     }
     .section{
         height: 10%;
@@ -211,5 +211,11 @@ a:hover::after {
         font-size: 15pt;
         font-weight: bold;
         color: rgba(95, 18, 45, 0.714) !important;
+    }
+    .logo{
+        width: 25%;
+        height: 25%;
+        opacity: 70%;
+        margin-right: 2%;
     }
 }
