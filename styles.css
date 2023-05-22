@@ -203,5 +203,9 @@ a:hover::after {
         display: flex;
         justify-content: space-around;
     }
+    .link-text{
+        font-size: 8pt;
+        font-weight: bold;
+    }
     
 }
