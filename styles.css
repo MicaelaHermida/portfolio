@@ -204,7 +204,7 @@ a:hover::after {
         justify-content: space-around;
     }
     .link-text{
-        font-size: 12pt;
+        font-size: 9pt;
         font-weight: bold;
     }
     .link-text-projects{
